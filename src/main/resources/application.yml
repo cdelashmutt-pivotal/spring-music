@@ -1,8 +1,17 @@
 spring:
+  application:
+    name: spring-music
   jpa:
     generate-ddl: true
 
 management:
+  info:
+    git:
+      mode: full
+    env:
+      enabled: true
+    java:
+      enabled: true
   endpoints:
     web:
       exposure:
